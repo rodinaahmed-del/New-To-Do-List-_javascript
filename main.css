@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+.nav {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 40px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    margin-top: 70px;
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#task {
+    border: none;
+    outline: none;
+    background-color: #eee;
+    width: 190px;
+    border-radius: 3px;
+    padding: 5px 5px 5px 12px;
+}
+
+.btn1,
+.bt2 {
+    background-color: white;
+    outline: none;
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    width: fit-content;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -44px;
+    width: 28px;
+    height: 28px;
+    background: url("./images/icons8-circle-50.png") center/cover;
+}
+
+span {
+    position: absolute;
+    right: 0;
+    top: 7px;
+    cursor: pointer;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+
+}
+
+ul li.checked::before {
+    background: url("./images/icons8-checked-50.png") center/cover;
+}
+
+.btn-table1,
+.btn-table2 {
+    background-color: white;
+    outline: none;
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 480px) {
+
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/* Medium Devices (Laptops) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 1024px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
